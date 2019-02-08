@@ -56,6 +56,8 @@ function LangList() {
   const style = {
     display: 'flex',
     flexWrap: 'wrap',
+    // Compensate for LangProgress margins to align the items with the list boundaries.
+    margin: '-1rem',
   }
   return (
     <div style={style}>
